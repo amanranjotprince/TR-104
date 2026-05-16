@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Daily Diary - Weekly Progress Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-section">
+                <img src="https://srijansingh9.github.io/Training-102-Report/gndecLogo.png" alt="GNDEC">
+                <div>
+                    <h1>Traning TR-104 Report</h1>
+                    <p>By Amandeep Kaur | URN 2203395 | GNDEC Ludhiana</p>
+                </div>
+            </div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-header">
+                <h2>Six Months Training in Data Scientist</h2>
+            </div>
+
+
+            <!-- Loading State -->
+            <div class="loading" id="loadingState">
+                <div class="spinner"></div>
+                <p>Loading your weekly progress...</p>
+            </div>
+
+            <!-- Weeks Grid -->
+             <!-- -----------------------------------------------------------------------------------------------------------                          week 1 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="weeks-grid" id="weeksGrid">
+                <!-- Week 1 -->
+                <div class="week-card" data-week="1">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 1
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Python, Numpy, Pandas</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>8 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week1-detail">
+                        <div class="detail-buttons">
+                            <!-- Python Resources -->
+                            <a href="https://www.geeksforgeeks.org/python/python-programming-language-tutorial/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tutorial</span>
+                            </a>
+                             <button class="detail-btn pdf-btn" data-pdf="python-report">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Python Notes</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing" class="detail-btn" target="_blank" id="link-1">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment</span>
+                            </a>
+        
+                            <!-- Numpy Resources -->
+                            <a href="https://numpy.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Numpy Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 2</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 3</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="numpy-report-4">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Numpy Notes 4</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/12T_EPPnvh1j2EEtPIlrb-K3JqZXkppa5?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Numpy Assignment</span>
+                            </a>
+                            
+                            <!-- Pandas Resources -->
+                            <a href="https://pandas.pydata.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Pandas Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 2</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="pandas-report-3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Notes 3</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1Kq32o6LxBe76cx4RmPuxrsF6C8YnYUQO?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Pandas Assignment</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                
+                <!-- Week 2 -->
+                <div class="week-card" data-week="2">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 2
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Python, Matplotlib, Seaborn</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>2 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week2-detail">
+                        <div class="detail-buttons">
+                            <!-- Python Resources -->
+                            <a href="https://www.geeksforgeeks.org/python/introduction-to-python/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Basics</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment</span>
+                            </a>
+                            
+                            <!-- Matplotlib Resources -->
+                             <a href="https://matplotlib.org/stable/index.html" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Matplotlib Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="matplotlib-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Matplotlib Report 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="matplotlib-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Matplotlib Report 2</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/11NBLv3B0CsLdZl-NbRcSlTtfiYO3I76L#scrollTo=45ad45a2" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Matplotlib Notebook</span>
+                            </a>
+                            
+                            <!-- Seaborn Resources -->
+                             <a href="https://seaborn.pydata.org/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Seaborn Documentation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="seaborn-report-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Seaborn Report 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="seaborn-report-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Seaborn Report 2</span>
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+                <!-- Week 3 -->
+                <div class="week-card" data-week="3">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 3
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Python, Feature Engineering, EDA Task</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>5 Tasks</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>3 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>1 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week3-detail">
+                        <div class="detail-buttons">
+                            <a href="https://www.geeksforgeeks.org/python/python-functions/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="python-RegEx">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Python - Regular Expression</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="feature-eng-1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering Notes 1</span>
+                            </button>
+                            <button class="detail-btn pdf-btn" data-pdf="feature-eng-2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering Notes 2</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hwzcva02jW51OV7mw6s3bJBhjbKyX-p_?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 1 - Social Media Addiction</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1zuh8zxsHRhCoUmODngAyxYf_4I82w-fJ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 2 - Sleep health and lifestyle</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/13ralpnhcWTDcbyPIwpmMzvi5MWAkZJx5?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 3 - World happiness report 2021</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1jCXbsVSEovyCmGlTVMArnNR3ulO3ItFZ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 4 - Tallest people in the world</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/16D7DK1-AH5jcMxRm7r3_eScFueW57Vyu?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>EDA Task 5 - Employer Dataset</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+                <!-- Week 4 -->
+                <div class="week-card" data-week="4">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 4
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Python, Assignments, Revision</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>4 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week4-detail">
+                        <div class="detail-buttons">
+                             <button class="detail-btn pdf-btn" data-pdf="numpy-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>NumPy Revision</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="pandas-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Revision</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hFNPX1XgVikaZPbFebxAvmA3dGLyukjJ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python List</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1yRICsSaRc8l_N3IHmbUaaFL5-1LiJj8U?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tuple, Sets, Dictionary</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1bwrvEiidU7WJe2WlknW4MlM84d9Ds2Lk?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions Assignment</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/19_M7kVlJYHxM7-KC3g6-f00hJCgtmHlL?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1vzmQdNKg3FWVZieWvlEm2azeckQnRBFM?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                
+                <!-- Week 5 -->
+                <div class="week-card" data-week="5">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 5
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Postman API</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>1 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>1 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week5-detail">
+                        <div class="detail-buttons">
+                            <a href="https://www.geeksforgeeks.org/software-testing/postman-tutorial/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Tutorial of Postman</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="postman-report">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Postman Notes</span>
+                            </button>
+                            <a href="https://www.postman.com/security-engineer-4818682/postman-api-fundamentals-student-expert/request/44457519-cec4af64-3271-46cf-a862-2ad84988b133?sideView=agentMode" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Postman Practice</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                <!-- Week 6 -->
+                <div class="week-card" data-week="6">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 6
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Python and SQL (Assignmnets)</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>1 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week6-detail">
+                        <div class="detail-buttons">
+                            <a href="https://realpython.com/python3-object-oriented-programming/" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>OOPs in Python</span>
+                            </a>
+                             <button class="detail-btn pdf-btn" data-pdf="python-oops">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>OOPs Notes</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="SQL-connection">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Notes</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="sql-ass1">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignment 1</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="sql-ass2">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignmnet 2</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="sql-ass3">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>SQL Assignment 3</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+                <!-- Week 7 -->
+                <div class="week-card" data-week="7">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 7
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Machine Learning Intro</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>3 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week7-detail">
+                        <div class="detail-buttons">
+                             <button class="detail-btn pdf-btn" data-pdf="data-cleaning">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Data Cleaning Notes</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="feature-engineering">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Feature Engineering</span>
+                            </button>
+                              <a href="https://colab.research.google.com/drive/1jCXbsVSEovyCmGlTVMArnNR3ulO3ItFZ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/16D7DK1-AH5jcMxRm7r3_eScFueW57Vyu?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/13ralpnhcWTDcbyPIwpmMzvi5MWAkZJx5?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Feature Engineering Task 3</span>
+                            </a>
+                             <button class="detail-btn pdf-btn" data-pdf="AI-ML-fundamental">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>AI-ML Fundamental</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="ML-workflow">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>ML Workflow</span>
+                            </button>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+
+
+                <!-- Week   8 -->
+                <div class="week-card" data-week="8">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 8
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Linear Regression (Implementation , Assignments)</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>3 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>4 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week8-detail">
+                        <div class="detail-buttons">
+                             <button class="detail-btn pdf-btn" data-pdf="SLR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Simple Linear Regression </span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="SLR-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Simple Linear Regression Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1dOnYnjSNnBzquyuAS-jMKOYm0ooPdDkn?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Simple Linear Regression Implementation</span>
+                            </a>
+                            <button class="detail-btn pdf-btn" data-pdf="MLR-notes">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Multiple Linear Regression </span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="MLR-implementation">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Multiple Linear Regression Steps</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/15BxWDcOUfDfA7ga99JY87jLJJ29g8iDh?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Multiple Linear Regression Implementation</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Z3HkqsU8RgHMP3F3LO0D0AR-VKD5WL4F?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1b570PmYx_qytMrVeZVBvEmn5cwdMYUck?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1IOYT4vydHqGtO-mIOfUCur2YGoKnNf-H?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Linear Regression Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+                <!-- Week 9 -->
+                <div class="week-card" data-week="9">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 9
+                        </div>
+                        <span class="week-badge">Completed</span>
+                    </div>
+                    <p>Logistic Regression</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>4 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week9-detail">
+                        <div class="detail-buttons">
+                             <button class="detail-btn pdf-btn" data-pdf="numpy-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>NumPy Revision</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="pandas-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Revision</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hFNPX1XgVikaZPbFebxAvmA3dGLyukjJ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python List</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1yRICsSaRc8l_N3IHmbUaaFL5-1LiJj8U?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tuple, Sets, Dictionary</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1bwrvEiidU7WJe2WlknW4MlM84d9Ds2Lk?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions Assignment</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/19_M7kVlJYHxM7-KC3g6-f00hJCgtmHlL?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1vzmQdNKg3FWVZieWvlEm2azeckQnRBFM?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+
+
+                <!-- Week 10 -->
+                <div class="week-card" data-week="10">
+                    <div class="week-header">
+                        <div class="week-title">
+                            <i class="fas fa-calendar-week"></i>
+                            Week 10
+                        </div>
+                        <span class="week-badge">Processing</span>
+                    </div>
+                    <p>Python, Assignments, Revision</p>
+                    <div class="week-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-tasks"></i>
+                            <span>4 Assignments</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-file-pdf"></i>
+                            <span>2 Notes</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <span>2 Links</span>
+                        </div>
+                    </div>
+                    
+                    <div class="week-detail" id="week10-detail">
+                        <div class="detail-buttons">
+                             <button class="detail-btn pdf-btn" data-pdf="numpy-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>NumPy Revision</span>
+                            </button>
+                             <button class="detail-btn pdf-btn" data-pdf="pandas-revision">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Pandas Revision</span>
+                            </button>
+                            <a href="https://colab.research.google.com/drive/1hFNPX1XgVikaZPbFebxAvmA3dGLyukjJ?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python List</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1yRICsSaRc8l_N3IHmbUaaFL5-1LiJj8U?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Tuple, Sets, Dictionary</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1bwrvEiidU7WJe2WlknW4MlM84d9Ds2Lk?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Functions Assignment</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1Hmatoay4lLEL5jMN3X6GSKcFclm9-nEs?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 1</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/19_M7kVlJYHxM7-KC3g6-f00hJCgtmHlL?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 2</span>
+                            </a>
+                            <a href="https://colab.research.google.com/drive/1vzmQdNKg3FWVZieWvlEm2azeckQnRBFM?usp=sharing" class="detail-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Python Assignment 3</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+     </div>
+
+    <!-- PDF Viewer Modal -->
+    <div class="pdf-modal" id="pdfModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">PDF Viewer</h3>
+                <button class="modal-close" onclick="closePDFModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="pdf-controls">
+                    <button class="control-btn" onclick="downloadCurrentPDF()">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </button>
+                    <button class="control-btn" onclick="fullscreenCurrentPDF()">
+                        <i class="fas fa-expand"></i>
+                        Fullscreen
+                    </button>
+                </div>
+                <iframe id="pdfFrame" src=""></iframe>
+            </div>
+        </div>
+    </div>
+
+     <script src="script.js"></script>
+</body>
+</html>
